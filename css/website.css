@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+background-image: url('/img/fondo1.png');
+
+height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*  -----------------------HEADER------------------- */
+header{
+    background-color: black;
+}
+.img-logo {
+    width: 100%;
+    
+    background-color: black;
+}
+
+.div-imagen {
+background-color: black;
+width: 100%;
+    text-align: center;
+    
+}
+
+.nav-header {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid whitesmoke;
+    background-color: black;
+margin-top: 50px;
+}
+
+.nav-header li {
+
+    font-size: larger;
+    display: flex;
+    list-style: none;
+    margin-bottom: 20px;
+    
+}
+
+.nav-header li a {
+    text-decoration: none;
+    color: white;
+
+}
